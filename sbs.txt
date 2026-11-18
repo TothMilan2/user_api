@@ -1,0 +1,25 @@
+step by step
+
+1. npm init vagy npm init -y
+
+2. csomagok telepítése (express, dotenv, mysql2, sequelize, bcrypt (jelszó hashelésre), jsonwebtoken)
+npm i express dotenv mysql2 sequelize bcrypt jsonwebtoken
+
+3. .env .env.example .gitignore fájlok
+
+4. src source mappa
+
+5. sql mappa (nem végleges)
+
+6.src-be mappákat rakni (konzolban is lehet): 
+cd src
+mkdir  models repositories  services  controllers routes mw utils
+
+7. kell még app.js és server.js
+
+8. package.json-ban scripteket berakni
+    "start": "node src/server.js",
+    "db:sync": "node src/db/sync.js",
+    "db:seed": "node src/db/seed.js"
+
+npm run start (akkor az a script fut le amelyikre mutat a package.json start scriptje)
