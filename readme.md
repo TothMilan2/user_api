@@ -9,3 +9,5 @@
 5. réteg: service réteg: utils-> AppError, service-> repo fgv. hívások
 
 6. réteg: controller réteg , service hívások  definiálása
+
+7. réteg: routes, app.js, server.js
