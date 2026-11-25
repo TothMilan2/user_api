@@ -35,8 +35,8 @@ module.exports = {
                 if(existing && existing.id !== Number(id)) throw new AppError('Ez az e-mail már foglalt!',409)
             }
             if(changes.password){
-                if(changes.password.length < 6) throw new AppError('A jelszó legalább 6 karakter legyen',400)
-                if(changes.password) = await bcrypt.hash(changes.password, SALT_ROUND)
+                if(changes.password.length < 6) throw new AppError('A jelszó legalább 6 karakter legyen',400);
+                if(changes.password)  await bcrypt.hash(changes.password, SALT_ROUND)
 
             }
 
