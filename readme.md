@@ -3,3 +3,7 @@
 2. réteg: adatbázis létrehozása (xampp), config/index.js db/sequelize.js
 
 3. réteg: model , db:sync
+
+4. réteg: repositories + teszt
+
+5. réteg: service réteg: utils-> AppError, service-> repo fgv. hívások
